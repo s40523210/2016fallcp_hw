@@ -279,7 +279,7 @@ for stud_num in alist:
         mlink += html.BR()
     container2 &lt;= mlink
 &lt;/script&gt;
-&lt;/pre&gt;</summary><category term="評分"></category></entry><entry><title>2016Fall CP 期中練習</title><link href="./2016fall-cp-qi-zhong-lian-xi.html" rel="alternate"></link><published>2016-11-04T12:00:00+08:00</published><updated>2016-11-04T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-04:./2016fall-cp-qi-zhong-lian-xi.html</id><summary type="html">&lt;p&gt;從 &lt;a href="http://www.rfc-editor.org/search/rfc_search_detail.php?page=All&amp;title=ipv6&amp;pubstatus%5B%5D=Any&amp;pub_date_type=any&amp;sortkey=Number&amp;sorting=ASC%22"&gt;IPV6 相關 RFCs 查詢&lt;/a&gt;得到的資料中, 如何在各組的網誌中整理一份能夠連結到各個未過時 (non-obsolete) 的 RFC 文件?&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="評分"></category></entry><entry><title>2016Fall CP 期中練習123</title><link href="./2016fall-cp-qi-zhong-lian-xi-123.html" rel="alternate"></link><published>2016-11-04T12:00:00+08:00</published><updated>2016-11-04T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-04:./2016fall-cp-qi-zhong-lian-xi-123.html</id><summary type="html">&lt;p&gt;從 &lt;a href="http://www.rfc-editor.org/search/rfc_search_detail.php?page=All&amp;title=ipv6&amp;pubstatus%5B%5D=Any&amp;pub_date_type=any&amp;sortkey=Number&amp;sorting=ASC%22"&gt;IPV6 相關 RFCs 查詢&lt;/a&gt;得到的資料中, 如何在各組的網誌中整理一份能夠連結到各個未過時 (non-obsolete) 的 RFC 文件?&lt;/p&gt;
 
 
 &lt;p&gt;參考程式碼:&lt;/p&gt;
@@ -368,7 +368,7 @@ for line in line_list:
 output += html.BR() + html.BR()  + "共有 " + str(count)+ " 份文件尚未失效!"
 container &lt;= output
 &lt;/script&gt;
-&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>2016Fall 程式練習題</title><link href="./2016fall-cheng-shi-lian-xi-ti.html" rel="alternate"></link><published>2016-10-22T12:00:00+08:00</published><updated>2016-10-22T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-10-22:./2016fall-cheng-shi-lian-xi-ti.html</id><summary type="html">&lt;p&gt;已知截至第六週 2016fallcpa 的分組資料位於倉儲中的 &lt;a href="./../users/agroup.txt"&gt;agroup.txt&lt;/a&gt;, 而從學校修課系統下載的修課人員名條則為 &lt;a href="./../users/a.txt"&gt;a.txt&lt;/a&gt;, 2016fallcpb 的分組資料位於倉儲中的 &lt;a href="./../users/bgroup.txt"&gt;bgroup.txt&lt;/a&gt;, 而從學校修課系統下載的修課人員名條則為 &lt;a href="./../users/b.txt"&gt;b.txt&lt;/a&gt;請各組著手練習, 找出尚未納入分組的人員名單, 並研擬如何處置上課一個半月卻尚未進入情況的學員?&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>2016Fall 程式練習題1234</title><link href="./2016fall-cheng-shi-lian-xi-ti-1234.html" rel="alternate"></link><published>2016-10-22T12:00:00+08:00</published><updated>2016-10-22T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-10-22:./2016fall-cheng-shi-lian-xi-ti-1234.html</id><summary type="html">&lt;p&gt;已知截至第六週 2016fallcpa 的分組資料位於倉儲中的 &lt;a href="./../users/agroup.txt"&gt;agroup.txt&lt;/a&gt;, 而從學校修課系統下載的修課人員名條則為 &lt;a href="./../users/a.txt"&gt;a.txt&lt;/a&gt;, 2016fallcpb 的分組資料位於倉儲中的 &lt;a href="./../users/bgroup.txt"&gt;bgroup.txt&lt;/a&gt;, 而從學校修課系統下載的修課人員名條則為 &lt;a href="./../users/b.txt"&gt;b.txt&lt;/a&gt;請各組著手練習, 找出尚未納入分組的人員名單, 並研擬如何處置上課一個半月卻尚未進入情況的學員?&lt;/p&gt;
 
 
 &lt;p&gt;以下利用 Brython 讀取位於倉儲中的 &lt;a href="./../users/a.txt"&gt;a.txt&lt;/a&gt; 與 &lt;a href="./../users/b.txt"&gt;b.txt&lt;/a&gt; 資料檔案. &lt;a href="./../users/agroup.txt"&gt;agroup.txt&lt;/a&gt; 與 &lt;a href="./../users/bgroup.txt"&gt;bgroup.txt&lt;/a&gt; 資料檔案.&lt;/p&gt;
@@ -499,7 +499,7 @@ for i in not_in_group:
     container6 &lt;= "第"+str(n)+"位: "+ str(i)
     n = n + 1
     container6 &lt;= html.BR()
-&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>2016Fall 機械設計主題教學</title><link href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html</id><summary type="html">&lt;p&gt;知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.&lt;/p&gt;
+&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>2016Fall 機械設計主題教學1234</title><link href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-1234.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-1234.html</id><summary type="html">&lt;p&gt;知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.&lt;/p&gt;
 
 
 &lt;h1&gt;機械設計主題教學&lt;/h1&gt;
