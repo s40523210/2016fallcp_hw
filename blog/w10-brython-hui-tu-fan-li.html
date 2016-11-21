@@ -329,7 +329,7 @@ init_mathjax();
 
 <script>
 window.onload=function(){
-brython(1);
+brython(1); 
 }
 </script>
 
@@ -363,107 +363,145 @@ ctx.stroke()
 ctx.closePath()
 </script>
 
-<!-- 以下實際利用  Brython 畫上下垂直線 -->
+<!-- 以下實際利用  Brython 畫方格線 -->
 
-<canvas id="japanflag2" width="600" height="200"></canvas>
+<canvas id="japanflag2" width="600" height="250"></canvas>
 
 <script type="text/python3">
 from browser import document as doc
 import math
-# 準備繪圖畫布
 canvas = doc["japanflag2"]
 ctx = canvas.getContext("2d")
-
-# 以下可以利用 ctx 物件進行畫圖
-# 先畫一條直線
+ #垂直
 ctx.beginPath()
-# 設定線的寬度為 1 個單位
 ctx.lineWidth = 1
-
+for i in range(6):
+    ctx.moveTo(100+i*20,50)
+    ctx.lineTo(100+i*20,150)
+#水平
 for i in range(5):
-    ctx.moveTo(100+i*10, 100)
-    ctx.lineTo(100+i*10, 200)
-
-# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+    ctx.moveTo(100,50+i*25)
+    ctx.lineTo(200,50+i*25)
 ctx.strokeStyle = "blue"
-# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+#粗線
+ctx.beginPath()
+ctx.lineWidth = 7
+ctx.moveTo(100,50)
+ctx.lineTo(200,50)
 ctx.stroke()
 ctx.closePath()
 </script>
 
-<!-- 以下實際利用  Brython 畫方格線 -->
+<!-- A Major -->
 
-<canvas id="japanflag3" width="600" height="300"></canvas>
-
-<div id="container3"></div>
+<canvas id="japanflag3" width="600" height="250"></canvas>
 
 <script type="text/python3">
 from browser import document as doc
-from browser import html
 import math
-import re
-# 準備繪圖畫布
 canvas = doc["japanflag3"]
-container = doc["container3"]
 ctx = canvas.getContext("2d")
-# 以下可以利用 ctx 物件進行畫圖
-
-# 水平線
-for i in range(5):
-    ctx.beginPath()
-# 設定線的寬度為 1 個單位
-    if i == 0:
-        ctx.lineWidth = 7
-    else:
-        ctx.lineWidth = 1
-    ctx.moveTo(99, 100+i*30)
-    ctx.lineTo(201, 100+i*30)
-    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-    ctx.strokeStyle = "pink"
-    ctx.stroke()
-    ctx.closePath()
-
-# 垂直線
+ #垂直
+ctx.beginPath()
+ctx.lineWidth = 1
 for i in range(6):
-    ctx.beginPath()
-# 設定線的寬度為 1 個單位
-    ctx.lineWidth = 1
-    ctx.moveTo(100+i*20, 100)
-    ctx.lineTo(100+i*20, 220)
-    # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-    ctx.strokeStyle = "yellow"
-    ctx.stroke()
-    ctx.closePath()
+    ctx.moveTo(100+i*20,50)
+    ctx.lineTo(100+i*20,150)
+#水平
+for i in range(5):
+    ctx.moveTo(100,50+i*25)
+    ctx.lineTo(200,50+i*25)
+ctx.strokeStyle = "blue"
+ctx.stroke()
+ctx.closePath()
+#粗線
+ctx.beginPath()
+ctx.lineWidth = 7
+ctx.moveTo(100,50)
+ctx.lineTo(200,50)
+ctx.stroke()
+ctx.closePath()
 
-
-
+#A Major 
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.font = "25px Arial"
+ctx.fillText("A Major", 110, 25)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# 1
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.arc(140, 87.5, 7, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("1", 135, 92.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# 2
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.arc(160, 87.5, 7, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("2", 155, 92.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# 3
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.arc(180, 87.5, 7, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("3", 175, 92.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
 # o
 ctx.beginPath()
-ctx.arc(50, 140, 7, 0, 2*math.pi, False)
+ctx.arc(120, 40, 5, 0, 2*math.pi, False)
 ctx.lineWidth =3
 ctx.strokeStyle = "black"
 ctx.stroke()
 ctx.closePath()
-
+ctx.beginPath()
+ctx.arc(200, 40, 5, 0, 2*math.pi, False)
+ctx.lineWidth =3
+ctx.strokeStyle = "black"
+ctx.stroke()
+ctx.closePath()
 # x
 ctx.beginPath()
-#ctx.arc(50, 170, 7, 0, 2*math.pi, False)
-ctx.moveTo(44, 164)
-ctx.lineTo(56, 176)
-ctx.moveTo(56, 164)
-ctx.lineTo(44, 176)
+#ctx.arc(100, 40, 5, 0, 2*math.pi, False)
+ctx.moveTo(95, 35)
+ctx.lineTo(105, 45)
+ctx.moveTo(105, 35)
+ctx.lineTo(95, 45)
 ctx.lineWidth =3
 ctx.strokeStyle = "black"
 ctx.stroke()
 ctx.closePath()
-
-# 以下將 canvas 畫布內容轉為 img tag, 並且顯示在 container 物件
-img = canvas.toDataURL("image/png")
-# 利用 re.sub, 將原本要直接開圖檔的 data:image 標頭, 改為 data:application/octet-stream, 可直接下載存檔
-# 使用 re 模組之前必須先 import re
-img = re.sub("^data:image\/[^;]", "data:application/octet-stream", img)
-# 宣告 anchor markup attribute download, 可以指定下載儲存檔名
-container <= html.A("save image", href=img, download="guitar_chord.png")
 </script>
             </div>
             <!-- /.entry-content -->
