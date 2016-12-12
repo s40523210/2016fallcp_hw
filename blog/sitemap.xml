@@ -5,41 +5,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-12-12T14:38:26-00:00</lastmod>
+<lastmod>2016-12-12T14:44:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-12-12T14:38:26-00:00</lastmod>
+<lastmod>2016-12-12T14:44:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-12-12T14:38:26-00:00</lastmod>
+<lastmod>2016-12-12T14:44:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-12-12T14:38:26-00:00</lastmod>
+<lastmod>2016-12-12T14:44:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-12-12T14:37:32+08:00</lastmod>
+<lastmod>2016-12-12T14:43:31+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./di-14zhou.html</loc>
+<loc>./w14-lian-xi.html</loc>
 <lastmod>2016-12-12T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -130,7 +130,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./author/40523211.html</loc>
+<loc>./author/40523210.html</loc>
 <lastmod>2016-12-12T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
