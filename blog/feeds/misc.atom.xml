@@ -37,7 +37,28 @@ mynum=input("要印幾次?")
 for i in range(int(mynum)):
     #container&lt;="W14練習-2"+html.BR()
     container&lt;=mystring+html.BR()
-&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W15</title><link href="./w15.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-12:./w15.html</id><summary type="html"></summary><category term="使用導引"></category></entry><entry><title>W13</title><link href="./w13.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-05:./w13.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
+&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W15</title><link href="./w15.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-12:./w15.html</id><summary type="html">&lt;p&gt;W14-1教學影片重點:&lt;/p&gt;
+&lt;p&gt;leo檔案  settings節點用法&lt;/p&gt;
+&lt;p&gt;ctrl+u (upper) 相關快捷鍵&lt;/p&gt;
+&lt;p&gt;怎麼讓settings節點生效?&lt;/p&gt;
+&lt;p&gt;@edit 節點指令用法&lt;/p&gt;
+&lt;p&gt;何謂markdown檔案 與html關係?&lt;/p&gt;
+&lt;p&gt;如何導入/啟動 Brython ?&lt;/p&gt;
+&lt;p&gt;如何編寫 Brython 程式?&lt;/p&gt;
+&lt;p&gt;@button 節點指令用法&lt;/p&gt;
+&lt;p&gt;pelican 是甚麼? 與 Markdown 檔案關係?&lt;/p&gt;
+&lt;p&gt;為何需要 @button https_server?&lt;/p&gt;
+&lt;p&gt;啟動 https_server 為何需要 localhost.crt 與 localhost.key?&lt;/p&gt;
+&lt;p&gt;pelican 的 plugin 有何功能?&lt;/p&gt;
+&lt;p&gt;至今我們用了那些 pelican 的 plugin?&lt;/p&gt;
+&lt;p&gt;pelican 轉檔如何偵錯?&lt;/p&gt;
+&lt;p&gt;如何複製或者搬動 leo 的節點?&lt;/p&gt;
+&lt;p&gt;何謂網誌? Weblog?&lt;/p&gt;
+&lt;p&gt;input() 的用法, alert() 的用法&lt;/p&gt;
+&lt;p&gt;def 函式用法&lt;/p&gt;
+&lt;p&gt;document["id_name"] 如何使用&lt;/p&gt;
+&lt;p&gt;document[].bind() 如何讓滑鼠 click 執行 brython 函式?&lt;/p&gt;
+&lt;p&gt;&amp;lt;= 在 Brython 程式中的用法&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>W13</title><link href="./w13.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-05:./w13.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
