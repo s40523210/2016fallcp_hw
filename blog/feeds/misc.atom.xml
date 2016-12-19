@@ -37,10 +37,9 @@ mynum=input("要印幾次?")
 for i in range(int(mynum)):
     #container&lt;="W14練習-2"+html.BR()
     container&lt;=mystring+html.BR()
-&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W15</title><link href="./w15.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-12:./w15.html</id><summary type="html"></summary><category term="使用導引"></category></entry><entry><title>W13</title><link href="./w13.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-05:./w13.html</id><summary type="html">&lt;p&gt;畫線練習&lt;/p&gt;
+&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W15</title><link href="./w15.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-12:./w15.html</id><summary type="html"></summary><category term="使用導引"></category></entry><entry><title>W13</title><link href="./w13.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-05:./w13.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
 
 
-&lt;p&gt;畫線練習&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -248,10 +247,9 @@ background(100, 100, w, h, 5, 18, ctx)
       #  ball(x, y, w, h, i+1, j+1, 'black', ctx)
 #ball(x, y, w, h, 1, 4, 'red', ctx)
 #ball(300, 300, 30, 20, 1, 1, 9, 'black', ctx)
-&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W11</title><link href="./w11.html" rel="alternate"></link><published>2016-11-28T12:00:00+08:00</published><updated>2016-11-28T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-11-28:./w11.html</id><summary type="html">&lt;p&gt;畫線練習&lt;/p&gt;
+&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W11</title><link href="./w11.html" rel="alternate"></link><published>2016-11-28T12:00:00+08:00</published><updated>2016-11-28T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-11-28:./w11.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
 
 
-&lt;p&gt;畫線練習&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -1470,10 +1468,9 @@ ctx.closePath()
 
 &lt;/script&gt;
 
-&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>W10</title><link href="./w10.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-14:./w10.html</id><summary type="html">&lt;p&gt;畫線練習&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>W10</title><link href="./w10.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-14:./w10.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
 
 
-&lt;p&gt;畫線練習&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
