@@ -13,6 +13,13 @@
 window.onload=function(){
 brython(1);
 }
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫圖 --&gt;
+
+&lt;script type="text/python3"&gt;
+#print("test")
+alert("test")
 &lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>w14 練習</title><link href="./w14-lian-xi.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-12:./w14-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -121,10 +128,9 @@ def numPrint(ev):
 doc['w13'].bind('click',numPrint)
 &lt;/script&gt;
 &lt;button id="w13"&gt;取重複執行次數後, 列印出來&lt;/button&gt;
-&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>W13</title><link href="./w13.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-05:./w13.html</id><summary type="html">&lt;p&gt;畫線練習&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>W13</title><link href="./w13.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-05:./w13.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
 
 
-&lt;p&gt;畫線練習&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -332,10 +338,9 @@ background(100, 100, w, h, 5, 18, ctx)
       #  ball(x, y, w, h, i+1, j+1, 'black', ctx)
 #ball(x, y, w, h, 1, 4, 'red', ctx)
 #ball(300, 300, 30, 20, 1, 1, 9, 'black', ctx)
-&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W12 Brython 繪圖</title><link href="./w12-brython-hui-tu.html" rel="alternate"></link><published>2016-12-02T12:00:00+08:00</published><updated>2016-12-02T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-02:./w12-brython-hui-tu.html</id><summary type="html">&lt;p&gt;畫線練習&lt;/p&gt;
+&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W12 Brython 繪圖</title><link href="./w12-brython-hui-tu.html" rel="alternate"></link><published>2016-12-02T12:00:00+08:00</published><updated>2016-12-02T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-02:./w12-brython-hui-tu.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
 
 
-&lt;p&gt;畫線練習&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -1554,10 +1559,9 @@ ctx.closePath()
 
 &lt;/script&gt;
 
-&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>W10</title><link href="./w10.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-14:./w10.html</id><summary type="html">&lt;p&gt;畫線練習&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="使用導引"></category></entry><entry><title>W10</title><link href="./w10.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-14:./w10.html</id><summary type="html">&lt;p&gt;畫線&lt;/p&gt;
 
 
-&lt;p&gt;畫線練習&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
