@@ -329,9 +329,16 @@ brython(1);
 
 <!-- 以下實際利用  Brython 畫圖 -->
 
+<div id="con"></div>
+
 <script type="text/python3">
+from browser import alert
+from browser import document
 #print("test")
-alert("test")
+#alert("test")
+con1=document["con"]
+for i in range(1):
+    con1<="test"+html.BR()
 </script>
             </div>
             <!-- /.entry-content -->
