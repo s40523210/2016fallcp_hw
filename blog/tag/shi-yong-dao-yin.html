@@ -353,34 +353,20 @@ from browser import document ...</script></!--></!-->
             </article>
             <hr/>
             <article>
-                <h2><a href="../w14-lian-xi.html">w14 練習</a></h2>
-                <div class="summary"><!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<script type="text/python3">
-from browser import document
-from browser import alert
-
-def get_input(ev):
-    the_input= input("請輸入")
-    alert("輸入為:"+str(the_input))
-
-document['ch01'].bind('click',get_input)
-</script>
-
-<p><button id="ch01">40523210</button></p>
-                    <a class="btn btn-default btn-xs" href="../w14-lian-xi.html">more ...</a>
+                <h2><a href="../w14-ying-pian-zhong-dian.html">w14 影片重點</a></h2>
+                <div class="summary"><p>從 Leo Editor把 @edit @path @button 的用法到 pelican 轉 .md 檔案成為 blog 網誌
+然後加入 Brython 程式導入與執行的方法</p>
+<p>@settings-&gt;設定節點
+@edit-&gt;增新節點
+@button-&gt;按鈕
+移動節點
+ctrl + u (upper) 向上 
+ctrl+d 向下
+ctrl+l 向左
+ctrl+i 新增內容
+ctrl+B是執行
+crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
+                    <a class="btn btn-default btn-xs" href="../w14-ying-pian-zhong-dian.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -461,8 +447,8 @@ document['ch01'].bind('click',get_input)
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../w14-lian-xi.html">
-                            w14 練習
+                        <a href="../w14-ying-pian-zhong-dian.html">
+                            w14 影片重點
                         </a>
                     </li>
                     <li class="list-group-item">
