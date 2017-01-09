@@ -3,10 +3,12 @@
 &lt;p&gt;W16 週心得與程式範例:&lt;/p&gt;
 &lt;p&gt;學習如何利用 random 模組產生特定範圍內的整數&lt;/p&gt;
 &lt;p&gt;猜對則印出比正確數字大或小的提示, 直到使用者猜對或因累計至預設猜謎次數後跳出迴圈&lt;/p&gt;
+&lt;p&gt;原來用程式來寫遊戲那麼有趣, 讓我對這塊領域又更感興趣&lt;/p&gt;
 &lt;p&gt;W15 週心得與程式範例:&lt;/p&gt;
 &lt;p&gt;整理各週教學影片重點, 將內容與練習程式及影片放到個人作業網誌&lt;/p&gt;
 &lt;p&gt;從 Leo Editor把 @edit @path @button 的用法到 pelican 轉 .md 檔案成為 blog 網誌 然後加入 Brython 程式導入與執行的方法&lt;/p&gt;
-&lt;p&gt;@settings-&amp;gt;設定節點 @edit-&amp;gt;增新節點 @button-&amp;gt;按鈕 移動節點 ctrl + u (upper) 向上 ctrl+d 向下 ctrl+l 向左 ctrl+i 新增內容 ctrl+B是執行 crtl+r向右移動或是將現在變成點取的檔案上面的子節點&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>w16 練習</title><link href="./w16-lian-xi.html" rel="alternate"></link><published>2016-12-26T12:00:00+08:00</published><updated>2016-12-26T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-26:./w16-lian-xi.html</id><summary type="html">&lt;p&gt;來玩猜數字囉&lt;/p&gt;
+&lt;p&gt;@settings-&amp;gt;設定節點 @edit-&amp;gt;增新節點 @button-&amp;gt;按鈕 移動節點 ctrl + u (upper) 向上 ctrl+d 向下 ctrl+l 向左 ctrl+i 新增內容 ctrl+B是執行 crtl+r向右移動或是將現在變成點取的檔案上面的子節點&lt;/p&gt;
+&lt;p&gt;看完影片讓我受益良多&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>w16 練習</title><link href="./w16-lian-xi.html" rel="alternate"></link><published>2016-12-26T12:00:00+08:00</published><updated>2016-12-26T12:00:00+08:00</updated><author><name>40523210</name></author><id>tag:,2016-12-26:./w16-lian-xi.html</id><summary type="html">&lt;p&gt;來玩猜數字囉&lt;/p&gt;
 
 
 &lt;p&gt;首先了解 random 亂數模組的用法&lt;/p&gt;
