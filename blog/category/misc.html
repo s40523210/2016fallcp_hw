@@ -279,100 +279,41 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="../w16-lian-xi.html">w16 練習</a></h2>
-                <div class="summary"><p>猜數字囉!</p>
-<!--PELICAN_END_SUMMARY -->
-
-<!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下可以執行的 Brython程式 -->
-
-<div id="id3"></div>
-
-<script type="text/python3">
-from browser import document
-from browser import html
-import random
-id3 = document["id3"]
-
-def gen_int(e):  
-    標準答案 = random.randint(1, 100)
-    你猜的數字 = int(input("請輸入您所猜的整數:"))
-    猜測次數 = 1
-    while ...</script></!--></!--></!--></!--pelican_end_summary>
-                    <a class="btn btn-default btn-xs" href="../w16-lian-xi.html">more ...</a>
+                <h2><a href="../2016fallcp-qi-mo-kao-zhou.html">2016fallcp 期末考週</a></h2>
+                <div class="summary"><p>W17 週心得與程式範例:</p>
+<p>W16 週心得與程式範例:</p>
+<p>W15 週心得與程式範例:</p>
+                    <a class="btn btn-default btn-xs" href="../2016fallcp-qi-mo-kao-zhou.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
                 <h2><a href="../w15-lian-xi.html">w15 練習</a></h2>
-                <div class="summary"><!-- 導入 Brython 標準程式庫 -->
+                <div class="summary"><p>練習</p>
 
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<script type="text/python3">
-from browser import document
-from browser import alert
-
-def get_input(ev):
-    the_input= input("請輸入")
-    alert("輸入為:"+str(the_input))
-
-document['ch01'].bind('click',get_input)
-</script>
-
-<p><button id="ch01">取輸入後, 列印出來</button></p>
-<div id="con"></div>
-
-<script type="text/python3">
-from browser import document ...</script></!--></!-->
                     <a class="btn btn-default btn-xs" href="../w15-lian-xi.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../w14-ying-pian-zhong-dian.html">w14 影片重點</a></h2>
-                <div class="summary"><p>從 Leo Editor把 @edit @path @button 的用法到 pelican 轉 .md 檔案成為 blog 網誌
-然後加入 Brython 程式導入與執行的方法</p>
-<p>@settings-&gt;設定節點
-@edit-&gt;增新節點
-@button-&gt;按鈕
-移動節點
-ctrl + u (upper) 向上 
-ctrl+d 向下
-ctrl+l 向左
-ctrl+i 新增內容
-ctrl+B是執行
-crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
-                    <a class="btn btn-default btn-xs" href="../w14-ying-pian-zhong-dian.html">more ...</a>
+                <h2><a href="../w14-lian-xi.html">w14 練習</a></h2>
+                <div class="summary"><p>從 Leo Editor把 @edit @path @button 的用法到 pelican 轉 .md 檔案成為 blog 網誌 然後加入 Brython 程式導入與執行的方法</p>
+<p>@settings-&gt;設定節點 @edit-&gt;增新節點 @button-&gt;按鈕 移動節點 ctrl + u (upper) 向上 ctrl+d 向下 ctrl+l 向左 ctrl+i 新增內容 ctrl+B是執行 crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
+                    <a class="btn btn-default btn-xs" href="../w14-lian-xi.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../w16-lian-xi.html">w16 練習</a></h2>
+                <div class="summary"><p>來玩猜數字囉</p>
+
+                    <a class="btn btn-default btn-xs" href="../w16-lian-xi.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
                 <h2><a href="../w13.html">W13</a></h2>
-                <div class="summary"><p>畫線</p>
+                <div class="summary"><p>畫線練習</p>
 
                     <a class="btn btn-default btn-xs" href="../w13.html">more ...</a>
                 </div>
@@ -380,7 +321,7 @@ crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
             <hr/>
             <article>
                 <h2><a href="../w11.html">W11</a></h2>
-                <div class="summary"><p>畫線</p>
+                <div class="summary"><p>畫線練習</p>
 
                     <a class="btn btn-default btn-xs" href="../w11.html">more ...</a>
                 </div>
@@ -388,7 +329,7 @@ crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
             <hr/>
             <article>
                 <h2><a href="../w10.html">W10</a></h2>
-                <div class="summary"><p>畫線</p>
+                <div class="summary"><p>畫線練習</p>
 
                     <a class="btn btn-default btn-xs" href="../w10.html">more ...</a>
                 </div>
@@ -418,15 +359,16 @@ crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
                 </div>
             </article>
             <hr/>
-            <article>
-                <h2><a href="../2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">2016Fall 機械設計主題教學</a></h2>
-                <div class="summary"><p>知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.</p>
 
-                    <a class="btn btn-default btn-xs" href="../2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-
+        <ul class="pagination">
+                <li class="prev disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a
+                            href="../category/misc.html">1</a></li>
+                    <li class=""><a
+                            href="../category/misc2.html">2</a></li>
+                <li class="next"><a
+                        href="../category/misc2.html">&raquo;</a></li>
+        </ul>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -437,8 +379,8 @@ crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="../w16-lian-xi.html">
-                            w16 練習
+                        <a href="../2016fallcp-qi-mo-kao-zhou.html">
+                            2016fallcp 期末考週
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -447,18 +389,18 @@ crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../w14-ying-pian-zhong-dian.html">
-                            w14 影片重點
+                        <a href="../w14-lian-xi.html">
+                            w14 練習
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../w16-lian-xi.html">
+                            w16 練習
                         </a>
                     </li>
                     <li class="list-group-item">
                         <a href="../w13.html">
                             W13
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../w11.html">
-                            W11
                         </a>
                     </li>
                 </ul>
@@ -512,7 +454,7 @@ crtl+r向右移動或是將現在變成點取的檔案上面的子節點</p>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2016 40523210
+         <div class="col-xs-10">&copy; 2017 40523210
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
